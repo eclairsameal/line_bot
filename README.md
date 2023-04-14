@@ -1,9 +1,25 @@
 # line_bot
 
-## requirements.txt
-pip install 
+## Development
 
-fastapi
-uvicorn
-line-bot-sdk
+```
+pip install -r requirements.txt
+python main.py
+```
 
+## Environment Variable
+
+.env
+```
+LINE_CHANNEL_ACCESS_TOKEN=
+LINE_CHANNEL_SECRET=
+OPENAPI_KEY=
+API_ENV=developer
+```
+
+## ngrok
+https://ngrok.com/
+
+```
+ngrok http --authtoken [Authtoken] --host-header=rewrite 8080
+```
