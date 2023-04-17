@@ -4,7 +4,6 @@
 
 ```
 pip install -r requirements.txt
-python main.py
 ```
 
 ## Environment Variable
@@ -14,12 +13,18 @@ python main.py
 LINE_CHANNEL_ACCESS_TOKEN=
 LINE_CHANNEL_SECRET=
 OPENAPI_KEY=
-API_ENV=developer
 ```
 
 ## ngrok
 https://ngrok.com/
 
+
+* install
+```
+brew cask install ngrok
+```
+
+* run
 ```
 ngrok http --authtoken [Authtoken] --host-header=rewrite 8080
 ```
