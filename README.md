@@ -1,4 +1,11 @@
-# line_bot
+# LINE bot
+
+Use FastAPI to connect LINE bot to ChatGPT.
+
+## Architecture
+
+![Architecture](/image/Architecture.png)
+
 
 ## Development
 
